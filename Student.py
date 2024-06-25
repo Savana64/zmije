@@ -16,6 +16,6 @@ class Student:
 
 student = Student("Petr",10)
 
-print(student.name)
+print(student._name)
 # student.age = 20
-print(student.age)
+print(student._age)
