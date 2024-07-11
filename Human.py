@@ -29,7 +29,7 @@ class Human:
         return(self.home_address)
 
 
-human = Human("Adolf Hitler", "8.4.1918", "+48 605 456 789", "Berlin", "Bundesrepublik Deutschland", "Orlí Hnízdo" )
+human = Human("Adolf Hitler", "20.4.1889", "+48 605 456 789", "Berlin", "Bundesrepublik Deutschland", "Orlí Hnízdo" )
 
 print(human.get_city())
 
