@@ -16,7 +16,7 @@ class CapitaL:
     # vyhledání dat
     def find_data(self, country):
         return self.data[country] # country je klíč
-    
+
     def edit_data(self, country, new_capital):
         if country not in self.data:
             raise ValueError(f"country {country} neexistuje")
