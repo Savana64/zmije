@@ -3,3 +3,8 @@ moduly/hw1.py
 moduly/main.py
 moduly/main.py
 pickle.bin
+*.pyc
+__pycache__/
+db.sqlite3
+venv/
+*.env
